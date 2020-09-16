@@ -10,7 +10,7 @@ print(local_ip)
 
 @application.route("/")
 def hello():
-    return "Hello World!"
+   # return "Hello World!"
     return local_ip
 
 if __name__ == "__main__":
